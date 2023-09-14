@@ -1,3 +1,19 @@
 body{
-    background-color: blue;
+    background-color: darkgrey;
+
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.pe{
+    color :bisque;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+img{
+max-width: 20%;  
+height: auto;
+margin-left: 600px;
 }
