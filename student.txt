@@ -1,0 +1,5 @@
+Student name: Marin Chiosa
+Student number: 720568
+Student class: HAITFT1F
+GitHub Repository: https://github.com/Chmr1443/WebMarin
+GitHub Pages URL: your github pages URL
