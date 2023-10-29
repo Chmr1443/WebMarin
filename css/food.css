@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
-html, body {
-    margin: 0;
-    height: 100%;
+*{
+    width: auto;
+    height: auto;
 }
 nav img{
 
@@ -42,15 +42,17 @@ a {
         color: #B7E3DF;
     }
 header img{
-   width: 100%;
+   width: 101.1%;
+   margin-left:-10px;
 }
 aside{
     display: inline-flex;
     height: 102px;
     align-items: center;
     background: #B7E3DF;
-    width: 100%;
-    margin-top:-10px ;
+    width: 101.1%;
+    margin-top:-5px ;
+    margin-left:-10px;
 }
 aside h1{
     color: #000;
@@ -164,7 +166,9 @@ aside h1{
 
 }
 footer {
-   width: 100%;
+    width: 101.1%;
+    margin-top:-5px ;
+    margin-left:-10px;
     height:460px;
     background: #B7E3DF;
     margin-top:1200px;
