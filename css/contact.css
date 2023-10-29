@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
@@ -60,113 +61,69 @@ aside h1{
     font-family: Sansita Swashed;
     font-size: 80px;
     font-weight: 400;
-    margin-left:400px;
+    margin-left:600px;
+}
+table {
+    width: 25%;
+    margin-left:200px;
+    margin-top:100px;
 }
 
-#event1 img{
-    float:right;
-    position: relative;
-    right: 200px;
+table, th, td {
+    border-collapse: collapse;
 }
 
-#event1 p {
-width: 800px;
-text-indent:20px;
-text-align: right;
-font-family: 'Ruda', sans-serif;
-font-size: 30px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    width: 30%;
+}
+
+input[type="text"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+}
+#submit{
+  margin-left:500px;
+}
+
+#person img{
+    width: 300px;
+height: 423px;
+float:right;
 position: relative;
-top:100px;
-left:200px;
-}
+bottom:350px;
+right:200px;
 
-#event1 h2{
-    text-align: center;
-font-family: Sansita swashed;
-font-size: 40px;
-font-weight: 400;
-text-decoration: solid;
-position: relative;
-top:70px;
-right:80px
 }
-
-#event1 h3{
-    font-size: 30px;
-    line-height: normal;
-    text-decoration: solid;
-    font-family: Sansita swashed;
-    position: relative;
-    top:80px;
-   padding-left:570px;
-}
-
-#nov{
-        display: inline-flex;
-        height: 102px;
-        align-items: center;
-        background: #B7E3DF;
-        width: 100%;
-        margin-top:100px;
-}
-#nov h1{
-    color: #000;
-    text-align: center;
-    font-family: Sansita Swashed;
-    font-size: 80px;
+#person h1 {
+    width: 500px;
+    text-indent:20px;
+    font-family: 'Ruda', sans-serif;
+    font-size: 20px;
+    font-style: normal;
     font-weight: 400;
-    margin-left:400px;
-
-}
-#events3 img {
-
-    width: 271px;
-height: 293px;
-position: relative;
-top:50px;
-left:50px;
-}
-#events3 h1{
-    text-align: center;
-font-family: Sansita swashed;
-font-size: 60px;
-font-weight: 400;
-text-decoration: solid;
-position: relative;
-top:-270px;
-right:250px;
-}
-#events3 h2{
-    font-size: 30px;
     line-height: normal;
-    text-decoration: solid;
-    font-family: Sansita swashed;
     position: relative;
-   padding-left:350px;
-   top:-260px;
+    text-align:left ;
+    left:1000px;
+    top:100px;
 }
-#events3 p {
-    width: 1100px;
-text-indent:20px;
-text-align: left;
-font-family: 'Ruda', sans-serif;
-font-size: 30px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-position: relative;
-left:350px;
-top:-230px;
-}
-
 footer {
     background-color: #B7E3DF;
     width: 1519px;
     height:460px;
-    margin-top:-200px ;
+    margin-top:130px ;
 }
 
 #icons{
@@ -176,8 +133,9 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     align-items: center;
-    margin-left:-1100px;
     font-size: 40px;
+    position: relative;
+    right:400px;
 }
 #image{
     float:right;
@@ -189,4 +147,3 @@ footer p {
     margin-top:-140px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
