@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
+*{
+    margin:0;
+    width:auto ;
+    height: auto;
+}
+nav img{
+
+    width: 250px;
+    height: 50px;
+} 
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float:right;
+}
+nav{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav li {
+    margin-right: 20px; 
+    border-right: 2px solid black; 
+    padding-right: 20px; 
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Satisfy', cursive;
+    font-size:40px ;
+    
+}
+    .nav li {
+        float: left;
+        margin-left: 20px;
+    }
+    a:hover {
+        color: #B7E3DF;
+    }
+header img{
+   width: 100%;
+}
+aside{
+    display: inline-flex;
+    height: 102px;
+    align-items: center;
+    background: #B7E3DF;
+    width: 100%;
+    margin-top:-10px ;
+}
+aside h1{
+    color: #000;
+    text-align: center;
+    font-family: Sansita Swashed;
+    font-size: 80px;
+    font-weight: 400;
+    margin-left:400px;
+
+}
+#place1 img{
+    width: 400px;
+height: 400px;
+margin-left:50px;
+}
+#place1 h1{
+    text-align: center;
+    font-family: Sansita swashed;
+    font-size: 60px;
+    font-weight: 400;
+    text-decoration: solid;
+    position: relative;
+    top:50px;
+
+}
+#place1 p {
+    width: 800px;
+    text-indent:20px;
+    text-align: left;
+    font-family: 'Ruda', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    text-align:center ;
+    left:500px;
+    bottom:350px;
+}
+#place2 h1{
+    text-align: center;
+    font-family: Sansita swashed;
+    font-size: 60px;
+    font-weight: 400;
+    text-decoration: solid;
+    position: relative;
+    top:-300px;
+}
+#place2 img{
+    position: relative;
+    bottom:300px;
+    left:40px;
+}
+
+#place2 p {
+    width: 1400px;
+    text-indent:20px;
+    text-align: left;
+    font-family: 'Ruda', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    text-align:center ;
+    left:70px;
+    bottom:300px;
+}
+#place3 h1{
+    text-align: center;
+    font-family: Sansita swashed;
+    font-size: 60px;
+    font-weight: 400;
+    text-decoration: solid;
+    position: relative;
+    top:-250px;
+    right:300px;
+}
+#place3 img{
+    position: relative;
+    bottom:300px;
+    right:40px;
+    width:35%;
+    height: 35% ;
+    float:right;
+}
+
+#place3 p {
+    width: 800px;
+    text-indent:20px;
+    text-align: left;
+    font-family: 'Ruda', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    text-align:center ;
+    left:70px;
+    bottom:200px;
+}
+
+footer {
+    background-color: #B7E3DF;
+    width: 1519px;
+    height:460px;
+    margin-top:-130px;
+}
+
+#icons{
+    color:white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    margin-left:-1100px;
+    font-size: 40px;
+    position: relative;
+    top:-280px;
+}
+#image{
+    float:right;
+    margin-top:-605px;
+} 
+footer p {
+    font-size:25px ;
+    margin-left:-300px;
+    margin-top:-100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
