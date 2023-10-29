@@ -68,7 +68,6 @@ aside h1{
 }
 #icos a {
 text-decoration: none;
-width: 50px;
 color: #000;
 text-align: center;
 font-family: Scada;
@@ -76,37 +75,88 @@ font-size: 40px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-margin-top:-300px;
+position: relative;
+top:-100px;
+left:50px;
 }
 #icos img{
     width: 195px;
-height: 178px;
-}
+    height: 178px;
+position: relative;
+top:100px;
+right:300px;
 
-#icos{
-    width: 100px;
 }
 
 #tourism a {
     text-decoration: none;
-width: 600px;
+width: 300px;
 color:black;
 font-family: Scada;
-font-size: 30px;
+font-size: 40px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-}
+position: relative;
+top:-100px;
+left:160px;
 
+}
+#tourism img{
+    width: 200px;
+height: 185px;
+position: relative;
+left:1100px;
+top:-100px;
+}
 #art a {
 text-decoration: none;
 width: 600px;
 color:black;
 font-family: Scada;
-font-size: 30px;
+font-size: 40px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-left:200px;
+}
+#art img{
+    width: 189px;
+height: 187px;
+position: relative;
+top:200px;
+right:430px;
+}
+
+footer {
+    width: 101.1%;
+    margin-top:-5px ;
+    margin-left:-10px;
+    height:460px;
+    background: #B7E3DF;
+    margin-top:1200px;
+}
+
+#iqos{
+    color:white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    margin-left:-1100px;
+    position: relative;
+    bottom:300px;
+}
+#image{
+    float:right;
+    margin-top:-655px;
+
+} 
+footer p {
+    font-size:20px ;
+    margin-left:-620px;
+    margin-top:-500px ;
 }
 
 
