@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scada&display=swap');
+
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+nav img{
+
+    width: 250px;
+    height: 50px;
+} 
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float:right;
+}
+nav{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav li {
+    margin-right: 20px; 
+    border-right: 2px solid black; 
+    padding-right: 20px; 
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Satisfy', cursive;
+    font-size:45px ;
+    
+}
+    .nav li {
+        float: left;
+        margin-left: 20px;
+    }
+    a:hover {
+        color: #B7E3DF;
+    }
+header img{
+   width: 100%;
+   height: 500px ;
+}
+aside{
+    display: inline-flex;
+    height: 102px;
+    align-items: center;
+    background: #B7E3DF;
+    width: 100%;
+    margin-top:-10px ;
+}
+
+aside h1{
+    color: #000;
+    text-align: center;
+    font-family: Sansita Swashed;
+    font-size: 80px;
+    font-weight: 400;
+    margin-left:550px;
+}
+#icos a {
+text-decoration: none;
+width: 50px;
+color: #000;
+text-align: center;
+font-family: Scada;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top:-300px;
+}
+#icos img{
+    width: 195px;
+height: 178px;
+}
+
+#icos{
+    width: 100px;
+}
+
+#tourism a {
+    text-decoration: none;
+width: 600px;
+color:black;
+font-family: Scada;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+#art a {
+text-decoration: none;
+width: 600px;
+color:black;
+font-family: Scada;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+

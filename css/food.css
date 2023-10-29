@@ -1,17 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
-
-html, body {
-    margin: 0;
-    height: 100%;
+*{
+    width: auto;
+    height: auto;
 }
 nav img{
 
     width: 250px;
     height: 50px;
 } 
-
 ul {
     list-style: none;
     padding: 0;
@@ -20,7 +18,6 @@ ul {
 }
 nav{
     width: auto;
-    border:5px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,43 +44,6 @@ a {
 header img{
    width: 100%;
 }
-    section h1{
-     display: flex;
-    width: 1000px;
-    height: 140px;
-    flex-direction: column;
-    justify-content: center;
-}
-    section h1 {
-    color: #000;
-    text-align: center;
-    font-family: 'Satisfy', cursive;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-    section p{
-    text-align: center;
-    font-size: 30px;
-    font-style: normal;
-    line-height: normal;
-    font-family: 'Roboto Condensed', sans-serif;
-
-}
-    section p{
-    display: flex;
-    width: 1000px;
-    height:250px;
-    flex-direction: column;
-    justify-content: center;
-}
-section{
-    margin-left:200px
-}
-#backgroundimg{
-    width:100px ;
-}
 aside{
     display: inline-flex;
     height: 102px;
@@ -92,7 +52,6 @@ aside{
     width: 100%;
     margin-top:-10px ;
 }
-
 aside h1{
     color: #000;
     text-align: center;
@@ -100,92 +59,115 @@ aside h1{
     font-size: 80px;
     font-weight: 400;
     float:center ;
-    margin-left:360px;
+    margin-left:400px;
+    
 }
-    #marktal img{
+#food1 img{
     width: 500px;
     height: 399px;
-    margin-top:-90px
+    float:right;
+    margin-right:100px ;
+    margin-top:-50px;
 }
-    #marktal p{
-    width: 860px;
+    #food1 p{
+    width: 900px;
     color: #000;
     font-size: 35px;
     font-style: normal;
     font-weight: 400;
-    float:right;
     text-align:left ;
-    margin-top:-20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 0.3em;
+    margin-left:150px;
+    
 }
-#marktal h1{
+#food1 h1{
     color: #000;
     text-align: center;
-    font-family: Sansita Swashed;
+    font-family: Satisfy;
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
-    margin-left:600px;
+    margin-left:800px;
     margin-top:-5px;
 
 }
-#zoo2 {
-    width:1480px;
-    height:500px;
-    background: #B7E3DF;
-    margin-left:-100px;
-}
-#zoo2 h1{
- float:left;
- margin-top:-10px;
- font-family: Sansita Swashed;
-}
-#zoo2 img{
-    width: 500px;
-    height: 400px;
-    float:right;
-    margin-top:-100px;
-}
-    #zoo2 p {
-    width:800px ;
-    text-align:left ;
-    margin-left:130px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40px;
-    font-weight: 400;
-}
-#main3 img{
-    width: 500px;
+#food2 img{
+    width: 700px;
     height: 399px;
-    margin-top:-120px;
-    margin-left:-180px;
+    float:left;
+    margin-left:50px;
+    margin-top:-40px;
 }
-    #main3 p{
-    width: 850px;
-    color: #000;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    float:right;
-    text-align:left ;
-    margin-top:-20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    #food2 p{
+        width: 700px;
+        color: #000;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        text-align:left ;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: relative;
+        margin-left:800px;
+        float:left;
+        top:-380px;
+        line-height: 0.001em;
+
+        
 }
-#main3 h1{
+#food2 h1{
     color: #000;
     text-align: center;
-    font-family: Sansita Swashed;
-    font-size: 40px;
+    font-family: Satisfy;
+    font-size: 60px;
     font-style: normal;
     font-weight: 400;
-    margin-left:200px;
-    margin-top:-5px;
+    float:left;
+    margin-top:160px;
+    margin-left:50px;
+
+}
+#food3 img {
+    width: 700px;
+    height: 399px;
+    float:right;
+    margin-right:30px ;
+    margin-top:-250px;
+}
+
+#food3 h1{
+    color: #000;
+    text-align: center;
+    font-family: Satisfy;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    float: right;
+    margin-top:-350px;
+    margin-right:100px ;
+
+}
+
+#food3 p{
+    width: 900px;
+        color: #000;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        text-align:left ;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: relative;
+        float:right;
+        right:550px;
+        bottom:400px;
+        line-height: 0.001em;
 
 }
 footer {
-    background-color: #B7E3DF;
-    width: 1380px;
+   width: 100%;
     height:460px;
+    background: #B7E3DF;
+    margin-top:1200px;
 }
 
 #icons{
@@ -196,8 +178,16 @@ footer {
     align-items: flex-start;
     align-items: center;
     margin-left:-1100px;
+    position: relative;
+    bottom:300px;
 }
 #image{
     float:right;
-    margin-top:-319px;
+    margin-top:-655px;
+
 } 
+footer p {
+    font-size:20px ;
+    margin-left:-620px;
+    margin-bottom:500px ;
+}
