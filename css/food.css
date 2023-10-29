@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
-*{
-    width: auto;
-    height: auto;
+html, body {
+    margin: 0;
+    height: 100%;
 }
 nav img{
 
