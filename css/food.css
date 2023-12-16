@@ -64,7 +64,12 @@ aside h1{
     margin-left:400px;
     
 }
-#food1 img{
+#food1 figcaption 
+{
+  text-align: right;
+  margin-left:500px;
+}
+#food1 img {
     width: 500px;
     height: 399px;
     float:right;
