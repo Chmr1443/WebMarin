@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attractions of Rotterdam</title>
+    <meta name="author" content="Marin">
     <link rel="icon" type="image/x-icon" href="images/erasmus.png">
     <link rel="stylesheet" type="text/css" href="css/contact.css">
 </head>
@@ -18,38 +19,44 @@
           </ul>
     </nav>
     <header>
-        <img src="images/contact.jpg" alt="Picture of a Rotterdam Erasmus Bridge" tile="Erasmusburg, The Netherlands">
+        <img src="images/contact.jpg" alt="Picture of a Rotterdam Erasmus Bridge" title="Erasmusburg, The Netherlands">
     </header>
     <aside>
     <h1>Contact Us</h1>
     </aside>
     <form action="submit_form.php" method="post">
+        <fieldset>
         <table>
+            <legend><strong>Contact us:</strong></legend>
             <tr>
                 <th><label for="salutation"></label></th>
                 <td>
                     <select id="salutation" name="salutation">
-                        <option value="Mrs">Mrs</option>
-                        <option value="Mr">Mr</option>
+                        <option value="Mrs"><em>Mrs</em></option>
+                        <option value="Mr"><em>Mr</em></option>
                     </select>
                 </td>
             </tr>
             <tr>
-                <th><label for="full-name">Full Name:</label></th>
+                <th><label for="full-name"><em>Full Name</em></label></th>
                 <td><input type="text" id="full-name" name="full-name" required></td>
             </tr>
             <tr>
-                <th><label for="phone-number">Phone Number:</label></th>
+                <th><label for="phone-number"><em>Phone Number:</em></label></th>
                 <td><input type="tel" id="phone-number" name="phone-number" required></td>
             </tr>
             <tr>
-                <th><label for="question">Your Question:</label></th>
+                <th><label for="phone-number"><em>Email</em></label></th>
+                <td><input type="email" id="email" name="email-adress" required></td>
+            </tr>
+            <tr>
+                <th><label for="question"><em>Your question</em></label></th>
                 <td><textarea id="question" name="question" rows="4" required></textarea></td>
             </tr>
         </table>
         <section id= "submit"><input type="submit" value="Submit"> </section>
+        </fieldset>
     </form>
-    <figure>
         <section id="person">
             <img src="images/person.jpeg" alt="Picture of an employe" title="Attractions of Rotterdam Contact Person">
             <h1>Lucifer Thomas

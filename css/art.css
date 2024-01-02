@@ -33,16 +33,25 @@ a {
     text-decoration: none;
     color: black;
     font-family: 'Satisfy', cursive;
-    font-size:40px ;
-    
+    font-size: 40px;
 }
-    .nav li {
+
+a:hover {
+    color: #B7E3DF;
+}
+.nav > li {
+    /* Styles for direct children li elements of .nav */
+    font-weight: bold;
+}
+
+a:visited {
+    color: purple;
+}
+.nav li {
         float: left;
         margin-left: 20px;
     }
-    a:hover {
-        color: #B7E3DF;
-    }
+
 header img{
    width: 100%;
 }
@@ -112,7 +121,11 @@ margin-top:-200px;
     position: relative;
     top:-150px;
    padding-left:750px;
-
+}
+#art1 h1::first-letter {
+    font-size: 120%; /* Adjust the size as needed */
+    color: #FF5733; /* Set the desired color for the first letter */
+    margin-right: 4px; /* Adjust spacing if needed */
 }
 #art2 p {
     width: 701px;
@@ -133,6 +146,11 @@ position: relative;
 bottom:350px;
 right:350px;
 }
+#art2 h1::first-letter {
+    font-size: 120%; /* Adjust the size as needed */
+    color: Blue; /* Set the desired color for the first letter */
+    margin-right: 4px; /* Adjust spacing if needed */
+}
 #art3 img{
     width: 600px;
 height: 400px;
@@ -149,6 +167,11 @@ margin-top:-300px;
     top:-250px;
    padding-left:750px;
 
+}
+#art3 h1::first-letter {
+    font-size: 120%; /* Adjust the size as needed */
+    color: green; /* Set the desired color for the first letter */
+    margin-right: 4px; /* Adjust spacing if needed */
 }
 #art3 p {
     width: 701px;
