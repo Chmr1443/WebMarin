@@ -140,17 +140,17 @@ aside h1{
 
 }
 #zoo2 {
-    width:1519px;
+    width:1900px;
     height:500px;
     background: #B7E3DF;
-    margin-left:-1px;
+    margin-left:00px;
 }
 #zoo2 h1{
  float:left;
  margin-top:-10px;
  font-family: Sansita Swashed;
  font-size:60px ;
- margin-left:250px;
+ margin-left:300px;
 
 }
 #zoo2 img{
@@ -158,6 +158,7 @@ aside h1{
     height: 400px;
     float:right;
     padding-top:60px ;
+    margin-right:300px;
 }
     #zoo2 p {
     width:800px ;
@@ -172,7 +173,8 @@ aside h1{
 #main3 img{
     width: 600px;
     height: 500px;
-    margin-left:-180px;
+    margin-left:-50px;
+    margin-top:-50px;
 }
     #main3 p{
     width: 750px;
@@ -184,7 +186,7 @@ aside h1{
     text-align:left ;
     margin-top:100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-right:100px ;
+    padding-right:300px ;
 }
 #main3 h1{
     color: #000;
@@ -199,7 +201,7 @@ aside h1{
 }
 footer {
     background-color: #B7E3DF;
-    width: 1519px;
+    width: 1900px;
     height:460px;
 }
 

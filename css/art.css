@@ -123,9 +123,9 @@ margin-top:-200px;
    padding-left:750px;
 }
 #art1 h1::first-letter {
-    font-size: 120%; /* Adjust the size as needed */
-    color: #FF5733; /* Set the desired color for the first letter */
-    margin-right: 4px; /* Adjust spacing if needed */
+    font-size: 120%; 
+    color: #FF5733; 
+    margin-right: 4px; 
 }
 #art2 p {
     width: 701px;
@@ -147,9 +147,9 @@ bottom:350px;
 right:350px;
 }
 #art2 h1::first-letter {
-    font-size: 120%; /* Adjust the size as needed */
-    color: Blue; /* Set the desired color for the first letter */
-    margin-right: 4px; /* Adjust spacing if needed */
+    font-size: 120%; 
+    color: Blue; 
+    margin-right: 4px; 
 }
 #art3 img{
     width: 600px;
@@ -169,9 +169,9 @@ margin-top:-300px;
 
 }
 #art3 h1::first-letter {
-    font-size: 120%; /* Adjust the size as needed */
-    color: green; /* Set the desired color for the first letter */
-    margin-right: 4px; /* Adjust spacing if needed */
+    font-size: 120%; 
+    color: green; 
+    margin-right: 4px; 
 }
 #art3 p {
     width: 701px;
@@ -193,7 +193,7 @@ right:250px;
 }
 footer {
     background-color: #B7E3DF;
-    width: 1519px;
+    width:100%;
     height:460px;
     margin-top:-230px;
 }
@@ -212,7 +212,7 @@ footer {
 }
 #image{
     float:right;
-    margin-top:-605px;
+    margin-top:-630px;
 } 
 footer p {
     font-size:25px ;

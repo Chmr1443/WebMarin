@@ -33,10 +33,7 @@
         padding-left: 300px;
     }
 
-    /* Add more responsive styles as needed */
 }
-
-/* Responsive styles for screens smaller than 480px */
 @media only screen and (max-width: 480px) {
     nav img {
         width: 120px;
@@ -62,7 +59,6 @@
         padding-left: 200px;
     }
 
-    /* Add more responsive styles as needed */
 }
 
 nav img{
@@ -114,9 +110,10 @@ aside {
     height: 102px;
     align-items: center;
     background: #B7E3DF;
-    width: 100%;
-    margin-top: -10px;
-    position: relative; 
+    width: 101%;
+    position: relative;
+    left:-10px;
+    bottom:10px; 
 }
 aside h1{
     color: #000;
@@ -130,14 +127,14 @@ aside h1{
 }
 #food1 figcaption 
 {
-  text-align: right;
-  margin-left:500px;
+  margin-left:1010px;
+  margin-top:300px;
 }
 #food1 img {
     width: 500px;
     height: 399px;
     float:right;
-    margin-right:100px ;
+    margin-right:200px ;
     margin-top:-50px;
 }
     #food1 p{
@@ -150,6 +147,7 @@ aside h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 0.3em;
     margin-left:150px;
+    margin-top:-100px;
     
 }
 #food1 h1{
@@ -167,8 +165,8 @@ aside h1{
     width: 700px;
     height: 399px;
     float:left;
-    margin-left:50px;
-    margin-top:-40px;
+    margin-left:-750px;
+    margin-top:230px;
 }
     #food2 p{
         width: 700px;
@@ -179,9 +177,9 @@ aside h1{
         text-align:left ;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         position: relative;
-        margin-left:800px;
+        margin-left:900px;
         float:left;
-        top:-380px;
+        top:-30px;
         line-height: 0.001em;
 
         
@@ -198,12 +196,17 @@ aside h1{
     margin-left:50px;
 
 }
+#food2 figcaption 
+{
+  margin-left:1010px;
+  margin-top:px;
+}
 #food3 img {
     width: 700px;
     height: 399px;
     float:right;
-    margin-right:30px ;
-    margin-top:-250px;
+    margin-right:-500px ;
+    margin-top:140px;
 }
 
 #food3 h1{
@@ -214,13 +217,12 @@ aside h1{
     font-style: normal;
     font-weight: 400;
     float: right;
-    margin-top:-350px;
     margin-right:100px ;
 
 }
 
 #food3 p{
-    width: 900px;
+       width: 900px;
         color: #000;
         font-size: 35px;
         font-style: normal;
@@ -229,16 +231,16 @@ aside h1{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         position: relative;
         float:right;
-        right:550px;
-        bottom:400px;
+        left:100px;
+        top:100px;
         line-height: 0.001em;
 
 }
 footer {
     background-color: #B7E3DF;
-    width: 1519px;
+    width: 1750px;
     height:460px;
-    margin-top:1200px;
+    margin-top:1250px;
     margin-left:-10px;
 }
 
@@ -252,20 +254,13 @@ footer {
     margin-left: -1100px;
     font-size: 40px;
     position: relative; 
-    top: -280px;
 }
 #image{
     float:right;
-    margin-top:-655px;
+    margin-top:-340px;
 } 
 footer p {
     font-size:25px ;
     margin-left:-300px;
-    margin-top:-100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-@media screen and (max-width: 600px) {
-  figcaption {
-    text-align: right; /* Right align for smaller screens */
-  }
 }
